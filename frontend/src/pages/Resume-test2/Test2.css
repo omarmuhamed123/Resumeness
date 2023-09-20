@@ -1,0 +1,47 @@
+.test2 {
+    min-height: 500px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 30%;
+}
+
+.test2 .image {
+    width: 100%;
+    background-image: url('../../assets/information-2.jpg');
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.test2 .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.test2 .box .item {
+    margin: 35px;
+}
+
+.test2 .box label {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.test2 .box input {
+    padding: 5px 10px;
+    /* width: 50%; */
+    border: 1px rgb(99, 92, 92) solid;
+    border-radius: 10px;
+}
+
+.test2 button{
+    background-color: rgb(109, 109, 236);
+    padding: 15px 40px;
+    border: 0px white solid;
+    border-radius: 10px;
+    font-size: 20px;
+}

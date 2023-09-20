@@ -1,0 +1,30 @@
+.logo {
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    left: 33%;
+    top: 10%;
+    width: 33%;
+    height: 80%;
+    zoom: normal;
+}
+
+.side {
+    width: 50%;
+    background-color: rgba(2, 2, 76, 0.849);
+}
+
+.model {
+    position: relative;
+    left: 50%
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-item{
+    margin-right: 30px;
+}

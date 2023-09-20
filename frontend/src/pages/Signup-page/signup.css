@@ -1,0 +1,27 @@
+.signup-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container input{
+    width: 25vw;
+    padding: 10px 25px;
+    border: 0px white solid;
+    background-color: rgb(223,223,223);
+    border-radius: 10px;
+}
+
+.signup-container .item{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.signup-container button.item{
+    background-color: rgb(109, 109, 236);
+    padding: 7px 15px;
+    border: 0px white solid;
+    border-radius: 5px;
+}

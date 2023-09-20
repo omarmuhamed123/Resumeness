@@ -1,0 +1,44 @@
+#summary h1 {
+    font-size: xx-large;
+    word-break: 'break-all';
+}
+
+#summary h3 {
+    font-size: x-large;
+    word-break: 'break-all';
+}
+
+#summary h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: larger;
+    word-break: 'break-all';
+
+}
+
+#summary li{
+    word-break: break-all;
+}
+
+#summary.box {
+    margin-top: 30px;
+
+}
+
+#summary.list {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+#summary.list-item {
+    margin-right: 25px;
+    font-stretch: expanded;
+
+}
+
+#summary span {
+    color: black;
+}
