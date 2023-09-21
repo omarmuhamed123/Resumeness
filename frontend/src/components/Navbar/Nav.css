@@ -1,0 +1,8 @@
+.nav{
+    padding: 25px 0px;
+    background-color: rgb(16,44,87);
+}
+.nav div{
+    color: white;
+    font-size: 20px;
+}

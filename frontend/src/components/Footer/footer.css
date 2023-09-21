@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.footer .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer .box a{
+    text-decoration: none;
+    color: black;
+}
