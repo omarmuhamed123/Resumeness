@@ -46,7 +46,7 @@ export default function Test4() {
                     <div className="box" style={{ padding: '25px 0px 25px 50px' }}>
                         <h1>Experience Information</h1>
                         <div>
-                            <button onClick={AddExper} type="button" className="action">Add your technical skills</button>
+                            <button onClick={AddExper} type="button" className="action">Add your experience</button>
                             <div className="exper-items">
                                 {inform.experData.map((ele, index) => {
                                     return (
